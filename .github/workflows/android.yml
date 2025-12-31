@@ -1,0 +1,16 @@
+name: Android CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+{
+  "appId": "com.ednovas.donguatv",
+  "appName": "D视界",
+  "webDir": "public",
+  "server": {
+    "url": "https://192.168.8.133",
+    "cleartext": true
+  }
+}
